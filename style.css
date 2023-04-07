@@ -1,0 +1,54 @@
+
+html {height:100%}
+body {
+    background-color: rgb(255, 122, 89);
+}
+h1{
+    font-family:'Roboto Condensed', sans-serif;
+}
+h2{
+    font-family:'Roboto Condensed', sans-serif;
+}
+h3{
+    font-family:'Roboto Condensed', sans-serif;
+    color: red
+}
+p{
+    font-family:'Roboto Condensed', sans-serif;
+}
+br{
+    font-family:'Roboto Condensed', sans-serif;
+}
+    
+
+.contenedor{
+    display: flex;
+}
+
+.imagenmenu{
+    display: flex;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.imagencelu{
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin-right: 10px;
+   
+}
+.titulomenu{
+    display: flex;
+    justify-content: center;
+    
+}
+.nombre{
+    display: flex;
+    justify-content: center;
+}
