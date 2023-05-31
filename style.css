@@ -1,54 +1,61 @@
+body{
+    background-color: rgb(235, 234, 234);;
+    margin: 0%;
+  }
 
-html {height:100%}
-body {
-    background-color: rgb(255, 122, 89);
-}
-h1{
-    font-family:'Roboto Condensed', sans-serif;
-}
-h2{
-    font-family:'Roboto Condensed', sans-serif;
-}
-h3{
-    font-family:'Roboto Condensed', sans-serif;
-    color: red
-}
-p{
-    font-family:'Roboto Condensed', sans-serif;
-}
-br{
-    font-family:'Roboto Condensed', sans-serif;
-}
+*{font-family:'Montserrat', sans-serif;}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #23d36c;
+    max-width: 100%;
+  }
+  
+  .nombre {
+    font-size: 24px;
+  }
+  
+  .BUSQUEDA {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+  }
+  input[type="text"] {
     
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+    border-radius: 10px;
+    box-align: end;
 
+  }
+  
+  button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
 .contenedor{
-    display: flex;
+  padding: 15px;
 }
-
-.imagenmenu{
-    display: flex;
-    border-radius: 20px;
-    width: 300px;
-    height: 350px;
-    margin: 75px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-   
+.listado-productos {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    
 }
-
-.imagencelu{
+.producto{
+  display: grid;
+}
+.imgprod{
     border-radius: 20px;
     width: 300px;
     height: 350px;
     margin-right: 10px;
    
-}
-.titulomenu{
-    display: flex;
-    justify-content: center;
-    
-}
-.nombre{
-    display: flex;
-    justify-content: center;
 }

@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+      <title>MarketUTN</title>
      <link href="style.css" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+     <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+
     </head>
     <body>
-        <main>
-        
-            <h1 class="nombre">
-                Market UTN
-            </h1>
-            <form action="../../form-result.php" method="post" target="_blank">
-
-                <p>
-              
-                  Busqueda: <input type="search" name="busquecelular" placeholder="marca, modelo...">
-              
-                  <input type="submit" value="Buscar">
-              
-                </p>
-              
-              </form> 
-              <h2>Celulares:</h2>
-              <div class="contenedor">
-                <div>
-
-                  <a href="samsunga23.html" target="_blank"><img class="imagenmenu" src="img/a23.jpg" alt=""></a> 
-                  <h3 class="titulomenu">Samsung Galaxy A23</h3>
+      <div id ="grid-layout">
+        <header class="header">
+          <h1 class="nombre">
+            Market UTN
+          </h1>
+            <div class="BUSQUEDA">
+              <input type="text" placeholder="ingrese su busqueda...">
+              <button type="submit">Buscar</button>
+            </div>
+        </header>
+        <div class="contenedor">
+          <div >
+            <h2>Celulares:</h2>
+              <div class="listado-productos">
+                <div class="producto">
+                  <a href="samsunga23.html" target="_blank"><img class="imgprod" src="img/a23.jpg" alt=""></a> 
+                  <h3 id="titulomenu">Samsung Galaxy A23</h3>
 
                 </div>
-
-                <div>
-
-                  <a href="motog52.html" target="_blank"><img class="imagenmenu" src="img/download.jpg" alt=""></a>
-                  <h3 class="titulomenu">Motorola Moto G52</h3>
-
+                <div class="producto">
+                  <a href="motog52.html" target="_blank"><img class="imgprod" src="img/download.jpg" alt=""></a>
+                  <h3 id="titulomenu">Motorola Moto G52</h3>
                 </div>
-
-                <div>
-
-                 <a href="xiaomi.html" target="_blank"><img class="imagenmenu" src="img/XIAOMI.webp" alt=""></a>
-                 <h3 class="titulomenu">Xiaomi Redmi Note 11S</h3>
-
+                <div class="producto">
+                 <a href="xiaomi.html" target="_blank"><img class="imgprod" src="img/XIAOMI.webp" alt=""></a>
+                 <h3 id="titulomenu">Xiaomi Redmi Note 11S</h3>
                 </div>   
-              </div>         
-        </main>
+              </div>    
+          </div>
+        </div>     
+      </div>
+    </body>
 </html>
